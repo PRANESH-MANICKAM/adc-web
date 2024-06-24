@@ -7,7 +7,7 @@
 </ul>
 
 <h5>Environment File</h5>
-Create .env file as same as .env.example and update the env file as per the application needs
+<p>No need of .env file, environment file located in src folder will generate automatically.</p>
 
 <h5>`Run`</h5>
 npm run build;
