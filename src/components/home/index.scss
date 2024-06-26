@@ -1,0 +1,24 @@
+.homeContainer {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  .homeRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 60%;
+      height: 60%;
+      margin: 5%;
+    }
+  }
+}
+
+// Media Query
+@media (400px < width < 570px) {
+  .homeContainer {
+    min-height: 600px;
+  }
+}

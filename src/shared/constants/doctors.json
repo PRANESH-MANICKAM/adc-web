@@ -1,0 +1,19 @@
+{
+  "pageTitle": "Our Doctors",
+  "dentist": [
+    {
+      "name": "Dr. B. Bharathi, B.D.S",
+      "role": "Dental Surgeon",
+      "imageUrl": "https://media.istockphoto.com/id/1141048859/photo/welcoming-dentist-in-his-office.jpg?s=2048x2048&w=is&k=20&c=o3KpNsIhOojwpO_zoguvavjj56GTfqFVIoJEmr4ckv8="
+    },
+    {
+      "name": "Dr. B. Priyanka, B.D.S",
+      "role": "Dental Surgeon",
+      "imageUrl": "https://media.istockphoto.com/id/1387249698/photo/portrait-of-female-doctor-on-white-background-stock-photo.jpg?s=2048x2048&w=is&k=20&c=e6D-s-vrBBZDVjzJHTgZvNCbb3oBRDTzuynaCY02Ylw="
+    }
+  ],
+  "request": {
+    "title": "Get a call from our Doctors",
+    "submit": "Make a Request"
+  }
+}

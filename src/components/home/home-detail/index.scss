@@ -1,0 +1,56 @@
+.homeDetailContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .detailText {
+    &-heading {
+      font-family: "Poppins Regular";
+      font-size: 50px;
+      letter-spacing: 2px;
+      font-weight: 600;
+      margin-bottom: 0 !important;
+      color: transparent;
+      -webkit-text-stroke: 1px #000;
+      text-align: center;
+    }
+    &-quote {
+      color: #343434;
+      letter-spacing: 1px;
+      font-size: 15px;
+    }
+    &-address {
+      font-family: "Poppins Regular";
+      text-align: center;
+      font-style: normal;
+    }
+  }
+  .appointment {
+    background-color: #ffbf23;
+    border: 3px solid #000;
+    color: #000;
+    width: 60%;
+    height: 60px;
+    font-family: "Poppins Bold";
+    &:hover {
+      background-color: #ffbf23 !important;
+      border: none;
+      color: #000 !important;
+      border-color: #000 !important;
+      box-shadow: "0px 4px 8px rgba(0, 0, 0, 0.1)";
+      transition: "background 0.3s, box-shadow 0.3s";
+    }
+  }
+}
+
+// Media Query
+
+@media (400px < width < 570px) {
+  .homeDetailContainer {
+    .detailText {
+      &-heading {
+        font-size: 35px;
+      }
+    }
+  }
+}

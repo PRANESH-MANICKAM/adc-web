@@ -1,10 +1,16 @@
 // Static imports
 import React from "react";
-import Banner from "./components/banner";
+// Dynamic import
+import { Header, Home, About, Doctors } from "./components";
 
 const App: React.FunctionComponent = () => {
     return (
-        <Banner />
+        <>
+            <Header />
+            <Home />
+            <About />
+            <Doctors />
+        </>
     )
 }
 

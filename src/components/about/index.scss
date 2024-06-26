@@ -1,0 +1,29 @@
+.about {
+  &-details {
+    padding: 25px;
+  }
+  &-welcomeTitle {
+    width: fit-content;
+    font-family: "Poppins Regular";
+    letter-spacing: 1px;
+    margin: 30px auto 0px;
+    border-bottom: 2px solid #ffbf23;
+  }
+  &-bio {
+    font-family: "Poppins Regular";
+    letter-spacing: 0.5px;
+    text-align: justify;
+  }
+  .doctorContainer {
+    background-color: #ffbf23;
+    min-height: 300px;
+    .doctors-title {
+      font-family: "Poppins SemiBold";
+      letter-spacing: 1px;
+      border-bottom: 2px solid #fff;
+      width: fit-content;
+      margin: 0px auto 30px;
+      padding-top: 30px;
+    }
+  }
+}

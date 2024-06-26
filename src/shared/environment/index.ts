@@ -1,4 +1,4 @@
-export const getWindow = () => window;
+export const getWindow = (): Window => window;
 
 export const getServiceBase = (): string => "/service/v1";
 

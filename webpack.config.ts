@@ -7,7 +7,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/",
   },
   mode: "development",
   resolve: {
@@ -37,6 +36,10 @@ module.exports = {
         test: /\.(sa|sc|c)ss$/,
         exclude: /\.module\.(sa|sc|c)ss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.(jpg|png|gif|svg)$/i,
+        use: "file-loader",
       },
     ],
   },

@@ -1,0 +1,17 @@
+{
+  "title": "Welcome to Atjaya Dental Clinic",
+  "bio": "The clinic was developed in 2013 as a speciality dental clinic. Within few months it emerged as a multispeciality dental care with installation of newer technology equipments. The practicing dentisthas complete experience,passionate and excelled in their field of dentistry.The clinic has the best radiovisiography for the dental Xrays with patented shield to prevent Xray leakage hazards. The installation of computer controlled anesthetic delivery system (CCAD) has made all dental treatments a NO PAIN procedure. The sterilization protocols are done with utmost care. Implant placements are made in a single visit. Laser assisted endodontics and gum esthetic correction has added a feather to the cap. Newer softwares are installed for patient education, records and communication. The clinic has bagged the WORD OF MOUTH from its patients as the best advertisement tool. Patient satisfaction is the success moto.",
+  "ourDoctorsText": "Our Doctors",
+  "doctors": [
+    {
+      "name": "Dr. B. Bharathi, B.D.S",
+      "role": "Dental Surgeon",
+      "imageUrl": ""
+    },
+    {
+      "name": "Dr. B. Bharathi, B.D.S",
+      "role": "Dental Surgeon",
+      "imageUrl": ""
+    }
+  ]
+}
