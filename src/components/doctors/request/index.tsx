@@ -1,19 +1,21 @@
 // Static import
+import { get } from "lodash";
 import React from "react";
 import { Card, Form, Input, Button } from "antd";
 // Dynamic import
 import "./index.scss";
 import { CheckOutlined } from "@ant-design/icons";
 import constants from "../../../shared/constants/doctors.json";
+import { RequestFormProps, requestFormValues } from "./type";
 
-const RequestForm: React.FunctionComponent = () => {
+const RequestForm: React.FunctionComponent = (props: RequestFormProps) => {
     const { Item } = Form;
 
-    const onRequest = () => { };
+    const onRequest = (values: requestFormValues): void => { };
 
     return (
         <div className="requestFormContainer">
-            <Card title={constants.request.title} className="request">
+            <Card title={get(constants, ["request", "title"])} className="request">
                 <Form name="requestForm" onFinish={onRequest} layout="vertical" >
                     <Item label="Name" name="name" rules={[{ required: true, message: "" }]}>
                         <Input placeholder="Enter Name" className="request-field" size="large" />
@@ -29,7 +31,7 @@ const RequestForm: React.FunctionComponent = () => {
                             icon={<CheckOutlined />}
                             className="request-submit"
                         >
-                            {constants.request.submit}
+                            {get(constants, ["request", "submit"])}
                         </Button>
                     </Item>
                 </Form>

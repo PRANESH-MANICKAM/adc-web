@@ -1,9 +1,12 @@
-export const getWindow = (): Window => window;
+// Static import
+import { get } from "lodash";
 
-export const getServiceBase = (): string => "/service/v1";
+export const getWindow: Function = (): Window => window;
 
-export const getPort = (): string | number => {
-  const { hostname } = getWindow().location;
+export const getServiceBase: Function = (): string => "/service/v1";
+
+export const getPort: Function = (): string | number => {
+  const { hostname } = get(getWindow(), ["location"]);
   if (hostname === "localhost") {
     return 3000;
   }
