@@ -1,10 +1,12 @@
 // Static import
-import { get } from "lodash";
 import React from "react";
+import { get } from "lodash";
+import Lottie from "lottie-react";
 import { Card, Form, Input, Button } from "antd";
 // Dynamic import
 import "./index.scss";
 import { CheckOutlined } from "@ant-design/icons";
+import { animations } from "../../../customs/animations";
 import constants from "../../../shared/constants/doctors.json";
 import { RequestFormProps, requestFormValues } from "./type";
 
@@ -16,6 +18,7 @@ const RequestForm: React.FunctionComponent = (props: RequestFormProps) => {
     return (
         <div className="requestFormContainer">
             <Card title={get(constants, ["request", "title"])} className="request">
+                <Lottie animationData={get(animations, "phoneRing")} className="request-phoneRing" />
                 <Form name="requestForm" onFinish={onRequest} layout="vertical" >
                     <Item label="Name" name="name" rules={[{ required: true, message: "" }]}>
                         <Input placeholder="Enter Name" className="request-field" size="large" />
