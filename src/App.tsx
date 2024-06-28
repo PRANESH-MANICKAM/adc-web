@@ -1,15 +1,20 @@
 // Static imports
 import React from "react";
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 // Dynamic import
-import { Header, Home, About, Doctors } from "./components";
+import Main from "./main";
+import { Header } from "./components";
 
 const App: React.FunctionComponent = () => {
     return (
         <>
-            <Header />
-            <Home />
-            <About />
-            <Doctors />
+            <Router>
+                <Header />
+                <Main />
+                <Routes>
+        
+                </Routes>
+            </Router>
         </>
     )
 }
