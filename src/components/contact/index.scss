@@ -1,0 +1,40 @@
+.contactContainer {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  .contact {
+    &-address {
+      font-family: "Poppins Regular";
+      font-style: normal;
+      letter-spacing: 1px;
+      color: #393b44;
+      text-align: center;
+    }
+    &-divider {
+      color: #393b44;
+      font-family: "Poppins Regular";
+    }
+  }
+  .googleMap {
+    iframe {
+      border: 2px solid #ffbf23;
+      border-radius: 5px;
+      width: 350px;
+      height: 250px;
+    }
+  }
+}
+
+.copyRights {
+  min-height: 50px;
+  background-color: #ffbf23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text {
+    color: #393b44;
+    margin-bottom: 0;
+  }
+}

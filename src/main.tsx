@@ -1,7 +1,7 @@
 // Static import
 import React from "react";
 // Dynamic import
-import { About, Doctors, Home, Reviews, Services } from "./components";
+import { About, Contact, Doctors, Home, Reviews, Services } from "./components";
 
 const Main: React.FunctionComponent = () => {
     return (
@@ -11,6 +11,7 @@ const Main: React.FunctionComponent = () => {
             <Doctors />
             <Services />
             <Reviews />
+            <Contact />
         </>
     );
 };

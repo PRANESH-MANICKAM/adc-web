@@ -9,6 +9,9 @@ import dentalService from "./dental-service.png";
 import mobileContact from "./mobile-contact.png";
 import email from "./email.png";
 import quote from "./quote.png";
+import instagram from "./instagram.png";
+import facebook from "./facebook.png";
+import location from "./location.png";
 
 export interface Icons {
   implant: string;
@@ -22,6 +25,9 @@ export interface Icons {
   mobileContact: string;
   email: string;
   quote: string;
+  instagram: string;
+  facebook: string;
+  location: string;
 }
 
 export const icons: Icons = {
@@ -36,4 +42,7 @@ export const icons: Icons = {
   mobileContact,
   email,
   quote,
+  instagram,
+  facebook,
+  location,
 };
