@@ -8,6 +8,7 @@ import whitening from "./whitening.png";
 import dentalService from "./dental-service.png";
 import mobileContact from "./mobile-contact.png";
 import email from "./email.png";
+import quote from "./quote.png";
 
 export interface Icons {
   implant: string;
@@ -20,6 +21,7 @@ export interface Icons {
   dentalService: string;
   mobileContact: string;
   email: string;
+  quote: string;
 }
 
 export const icons: Icons = {
@@ -33,4 +35,5 @@ export const icons: Icons = {
   dentalService,
   mobileContact,
   email,
+  quote,
 };

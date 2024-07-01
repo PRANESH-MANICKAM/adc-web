@@ -44,12 +44,12 @@
   ],
   "contact": [
     {
-      "type": "phone",
+      "type": "Phone",
       "icon": "mobileContact",
       "content": ["+91 7094809148", "+91 9787117949"]
     },
     {
-      "type": "email",
+      "type": "E-Mail",
       "icon": "email",
       "content": ["bharathibalu@gmail.com", "priyankgsubbiah@yahoo.com"]
     }

@@ -1,0 +1,29 @@
+{
+  "title": "Our Blogs",
+  "temps": [
+    {
+      "name": "Pranesh",
+      "place": "Erode",
+      "review": "I went to Srivari clinic for this root canal treatment. Iam very much satisfied with the warm and friendly response from the doctors"
+    },
+    {
+      "name": "Sangeetha",
+      "place": "Coimbatore",
+      "review": "I went to Srivari clinic for this root canal treatment. Iam very much satisfied with the warm and friendly response from the doctors"
+    },
+    {
+      "name": "Manickam",
+      "place": "Gobi",
+      "review": "I went to Srivari clinic for this root canal treatment. Iam very much satisfied with the warm and friendly response from the doctors"
+    },
+    {
+      "name": "Ahaan",
+      "place": "Adirampattinam",
+      "review": "I went to Srivari clinic for this root canal treatment. Iam very much satisfied with the warm and friendly response from the doctors"
+    }
+  ],
+  "actions": {
+    "addReview": "Add Review",
+    "viewMore": "View Reviews"
+  }
+}
