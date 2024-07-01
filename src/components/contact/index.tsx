@@ -2,11 +2,12 @@
 // Static import
 import React from "react";
 import { get } from "lodash";
-import { Avatar, Divider, Flex, Space, Typography } from "antd";
+import { Avatar, Divider, Flex, FloatButton, Space, Typography } from "antd";
 //Dynamic import
 import "./index.scss";
 import { icons } from "../../shared/icons/index";
 import constants from "../../shared/constants/contact.json";
+import { ArrowUpOutlined } from "@ant-design/icons";
 
 const Contact: React.FunctionComponent = () => {
     const { Paragraph } = Typography;
@@ -38,6 +39,7 @@ const Contact: React.FunctionComponent = () => {
             <section className="copyRights">
                 <Paragraph className="text">{get(constants, "rights")}</Paragraph>
             </section>
+            <FloatButton.BackTop icon={<ArrowUpOutlined />} />
         </>
     );
 }
