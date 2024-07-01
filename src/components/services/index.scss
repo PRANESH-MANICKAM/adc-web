@@ -1,0 +1,66 @@
+.servicesContainer {
+  background-color: #f7f7f7;
+  min-height: 400px;
+  .title {
+    margin: 0;
+    font-family: "Poppins SemiBold";
+    padding-top: 30px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 50px;
+  }
+  .title::first-letter {
+    color: #ffbf23;
+  }
+  .service {
+    padding: 20px;
+    &-template {
+      width: 25%;
+      font-family: "Poppins Regular";
+      letter-spacing: 1px;
+      background-color: transparent;
+      border: 1px solid transparent;
+    }
+    &-icon {
+      background-color: #ffbf23;
+      padding: 3px;
+    }
+    &-title:hover {
+      color: #ffbf23;
+    }
+  }
+}
+
+.contactService {
+  width: 100%;
+  min-height: fit-content;
+  .contact {
+    &-template {
+      text-align: center;
+      background: transparent;
+      border: none;
+      font-family: "Poppins Regular";
+      letter-spacing: 1px;
+    }
+  }
+}
+
+// Media Query
+@media (300px < width < 600px) {
+  .servicesContainer {
+    .title {
+      text-align: center;
+      font-size: 30px;
+    }
+    .service {
+      &-template {
+        width: 100%;
+      }
+      &-template:hover {
+        border-bottom: 0.5px solid #000;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+      }
+    }
+  }
+}

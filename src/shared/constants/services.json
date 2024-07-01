@@ -1,0 +1,57 @@
+{
+  "title": "Our Excellence Services",
+  "services": [
+    {
+      "title": "Implants",
+      "description": "permanent solutions for missing teeth, enhancing smile and function.",
+      "icon": "implant"
+    },
+    {
+      "title": "Smile Correction",
+      "description": "A smile makeover involves a series od cosmetics dentistry to enhance the aesthetics of your smile.",
+      "icon": "smileCorrection"
+    },
+    {
+      "title": "Root Canal",
+      "description": "Root canal treatment, is a dental procedure designed to treat infection or damage within the tooth's pulp.",
+      "icon": "rootCanal"
+    },
+    {
+      "title": "Crown and Bridge",
+      "description": "A dental crown is a cap that is placed over a damaged or decayed tooth to restore its shape, size, strength, and improve its appearance",
+      "icon": "dentalCrown"
+    },
+    {
+      "title": "Alignment & Braces",
+      "description": "Devices to straighten and align teeth for improved dental health.",
+      "icon": "braces"
+    },
+    {
+      "title": "Kids Dentistry",
+      "description": "Detection and treatment of dental and jaw alignment issues at a young age.",
+      "icon": "kidDentistry"
+    },
+    {
+      "title": "Teeth Whitening",
+      "description": "Cosmetic treatments to brighten and remove stains from teeth.",
+      "icon": "whitening"
+    },
+    {
+      "title": "General Dentistry",
+      "description": "Comprehensive care for overall dental and hygiene.",
+      "icon": "dentalService"
+    }
+  ],
+  "contact": [
+    {
+      "type": "phone",
+      "icon": "mobileContact",
+      "content": ["+91 7094809148", "+91 9787117949"]
+    },
+    {
+      "type": "email",
+      "icon": "email",
+      "content": ["bharathibalu@gmail.com", "priyankgsubbiah@yahoo.com"]
+    }
+  ]
+}
