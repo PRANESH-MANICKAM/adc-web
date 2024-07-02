@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 // Dynamic import
 import { RootState } from "../../store";
 
-const useSelectors: Function = (value: keyof RootState) =>
-  useSelector((state: RootState) => get(state, value, ""));
+const useSelectors: Function = (type: keyof RootState) =>
+  useSelector((state: RootState) => get(state, type, ""));
 
 export default useSelectors;

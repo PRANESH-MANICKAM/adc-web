@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes } from "react-router-dom";
 // Dynamic import
 import Main from "./main";
 import { Header } from "./components";
+import MessageWrapper from "./customs/hoc/message-wrapper";
 
 const App: React.FunctionComponent = () => {
     return (
@@ -12,11 +13,11 @@ const App: React.FunctionComponent = () => {
                 <Header />
                 <Main />
                 <Routes>
-        
+
                 </Routes>
             </Router>
         </>
     )
 }
 
-export default App;
+export default MessageWrapper(App);
