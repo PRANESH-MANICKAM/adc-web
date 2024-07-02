@@ -10,7 +10,7 @@ import constants from "../../shared/constants/contact.json";
 import { ArrowUpOutlined } from "@ant-design/icons";
 
 const Contact: React.FunctionComponent = () => {
-    const { Paragraph } = Typography;
+    const { Paragraph, Title } = Typography;
     return (
         <>
             <section className="contactContainer">
@@ -27,6 +27,24 @@ const Contact: React.FunctionComponent = () => {
                             <Avatar src={get(icons, "instagram")} />
                             <Avatar src={get(icons, "facebook")} />
                         </Space>
+                    </Space>
+                    <Space direction="vertical" className="branch" align="center">
+                        <Paragraph className="branch-title">{get(constants, ["branch", "title"])}</Paragraph>
+                        <Title level={4} className="branch-clinic">{get(constants, ["branch", "clinic", "name"])}</Title>
+                        <Space direction="vertical" align="center">
+                            <div className="branch-doctor">
+                                {get(constants, ["branch", "clinic", "doctor"])}
+                            </div>
+                            <div className="branch-role">
+                                {get(constants, ["branch", "clinic", "role"])}
+                            </div>
+                        </Space>
+                        <address className="branch-address">
+                            {get(constants, ["branch", "clinic", "address", "street"])} <br />
+                            {get(constants, ["branch", "clinic", "address", "landMark"])} <br />
+                            {get(constants, ["branch", "clinic", "address", "area"])}
+                        </address>
+                        <Paragraph className="branch-contact">{get(constants, ["branch", "clinic", "phone"])}</Paragraph>
                     </Space>
                     <div className="googleMap">
                         <iframe

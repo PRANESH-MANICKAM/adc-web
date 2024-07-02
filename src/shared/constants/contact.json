@@ -8,5 +8,19 @@
     "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.0271126208254!2d79.38182337451222!3d10.33971526709809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afffdf994631139%3A0x4cba8557d407bb3e!2sAtjaya%20dental%20clinic!5e0!3m2!1sen!2sin!4v1719858180272!5m2!1sen!2sin",
     "loading": "lazy"
   },
-  "rights": "Copyright ©2024 Atjaya Dental Clinic"
+  "rights": "Copyright ©2024 Atjaya Dental Clinic",
+  "branch": {
+    "title": "Also check",
+    "clinic": {
+      "name": "Shobha Dental Clinic",
+      "doctor": "Dr. B. Priyanka, B.D.S",
+      "role": "Dental Surgeon",
+      "address": {
+        "street": "1732, ADC Complex, Adirai Road,",
+        "landMark": "Thuvarankuruchi, Mukkuttuchalai",
+        "area": "Pattukottai, TamilNadu - India"
+      },
+      "phone": "Contact: +91 9787117949"
+    }
+  }
 }

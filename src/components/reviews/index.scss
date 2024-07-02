@@ -24,6 +24,7 @@
     }
     &-avatar {
       opacity: 0.5;
+      background-color: #ffbf23;
     }
     &-description {
       font-family: "Poppins Regular";
@@ -56,6 +57,7 @@
       font-size: 30px;
     }
     .reviews {
+      padding: 0;
       &-template {
         width: 100%;
       }
